@@ -1,27 +1,25 @@
-# AngularTaskTracker
+# Angular Task Tracker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+este projeto foi desenvolvido com o intuito de estudar os conceitos básicos de Angular
 
-## Development server
+## conceitos vistos
+- Estrutura de um projeto Angular
+- Módulo de Forms (FormsModule)
+- Módulo de Http (HttpClientModule)
+- Observables
+- Módulo de Rotas (RouterModule)
+- Diretivas
+- O conceito de two-way data binding
+- Componentes e Serviços
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Como rodar a aplicação
+A aplicação utiliza duas portas para seu funcionamento portanto certifique-se que essas portas estão livres, uma para rodar a aplicação em si (4200) e outra para rodar a simulação do back-end (5000) atráves do [json-server](https://www.npmjs.com/package/json-server).
 
-## Code scaffolding
+Para iniciar a aplicação basta rodar
+```shel
+npm run serve
+```
+para iniciar ambos os processos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Referências
+A aplicação foi desenvolvida baseada no Crash Course do canal de youtube (Traversy Media)[https://www.youtube.com/watch?v=3dHNOWTI7H8]
