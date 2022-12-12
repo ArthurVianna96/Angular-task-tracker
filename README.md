@@ -1,6 +1,12 @@
 # Angular Task Tracker
 
-este projeto foi desenvolvido com o intuito de estudar os conceitos básicos de Angular
+este projeto foi desenvolvido com o intuito de estudar os conceitos básicos de Angular.
+
+## funcionalidades
+- Visualizar suas tarefas
+- Adicionar Tarefas
+- Excluir Tarefas
+- Marcar/desmarcar Tarefas com a flag de reminder (duplo clique na tarefa)
 
 ## conceitos vistos
 - Estrutura de um projeto Angular
